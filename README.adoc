@@ -40,13 +40,15 @@ Example]
 * If the previous command failed (✘)
 * User @ Hostname (if user is not DEFAULT_USER, which can then be set in
 your profile)
+* Current time
+* Free RAM
 * Working directory
 * Git statuses
-* Dirty working directory (orange / green)
-* Branch (⭠) or detached head (➦)
-* Current branch / SHA1 in detached head state
-* Remote branch name (if you're tracking a remote branch)
-* Number of commit ahead HEAD and behind remote tracking branch (remote
+** Dirty working directory (orange / green)
+** Branch (⭠) or detached head (➦)
+** Current branch / SHA1 in detached head state
+** Remote branch name (if you're tracking a remote branch)
+** Number of commit ahead HEAD and behind remote tracking branch (remote
 tracking segment will be magenta if merge/rebase is needed)
 
 image:/screenshot.png?raw=true[Screenshot]

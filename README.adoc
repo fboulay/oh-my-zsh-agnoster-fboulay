@@ -14,7 +14,9 @@ For Mac users, I highly recommend iTerm 2 + Solarized Dark
 
 == Install
 
-=== Local install to oh-my-zsh
+Choose your favorite install method
+
+=== Install to your oh-my-zsh install directory
 
 Run `install.sh` script to copy theme to your `~/.oh-my-zsh` folder
 

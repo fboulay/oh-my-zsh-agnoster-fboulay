@@ -63,7 +63,7 @@ prompt_context() {
   local user=`whoami`
 
   if [[ "$user" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black white "%(!.%{%F{yellow}%}.)$user@%m |%*| $(promt_ram)G"
+    prompt_segment black white "%(!.%{%F{yellow}%}.)$user@%m"
   fi
 }
 
@@ -207,6 +207,10 @@ prompt_next_line() {
   echo -n "%{%f%}"	
 }
 
+prompt_other_info() {
+  prompt_segment black white "|%*| $(promt_ram)G"
+}
+
 function vi_mode_prompt_info() {
   echo "${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}" 
 }
@@ -217,6 +221,7 @@ build_prompt() {
   prompt_status
   prompt_virtualenv
   prompt_context
+  prompt_other_info
   prompt_dir
   prompt_git
   prompt_hg

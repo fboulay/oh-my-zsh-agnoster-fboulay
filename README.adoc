@@ -2,7 +2,7 @@
 
 
 A theme forked from
-https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor[agnoster-fcamblor]
+https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor[agnoster-fcamblor] (which is based on https://gist.github.com/agnoster/3712874[the original agnoster theme])
 
 A ZSH theme optimized for people who use:
 

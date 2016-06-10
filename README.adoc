@@ -49,4 +49,4 @@ your profile)
 * Number of commit ahead HEAD and behind remote tracking branch (remote
 tracking segment will be magenta if merge/rebase is needed)
 
-image:[Screenshot]
+image:/screenshot.png?raw=true[Screenshot]
